@@ -1,0 +1,134 @@
+/* --------------------------------------
+COLOR PALETTE WITH CSS VARIABLES
+----------------------------------------- */
+
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+  --main-fg-color: rgb(0, 0, 0);
+  --titles-color: rgb(0, 0, 0);
+  --bodytext-color: rgb(0, 0, 0);
+}
+
+/* --------------------------------------
+   DEFAULT STYLES GO HERE
+----------------------------------------- */
+
+
+body {
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+}
+
+h1 {
+  
+}
+
+figcaption {
+  }
+
+/* --------------------------------------
+  RESPONSIVE IMAGES
+----------------------------------------- */
+img {
+ 
+}
+
+
+
+
+
+/* -----------------  CSS VALUES  ----------------- 
+  default font size: 16px
+  1 em = 16px (context sensitive)
+  1 rem = 16px (always)
+  --------------------------------------------- */ 
+
+
+figure {
+   
+  } 
+
+  figcaption {
+   
+  }
+
+  .home a {
+  width: 3rem;
+  height: 3rem;
+  display: block; /* anchors are inline element */
+  margin: 2rem auto;
+  }
+
+/* --------------------------------------
+   MEDIA QUERIES FOR LARGER VIEWPORTS
+----------------------------------------- */
+
+/* No media query for "extra small" since this is the default  
+   The following media query sizes are taken from Bootstrap 5
+   See: https://getbootstrap.com/docs/5.1/layout/breakpoints/
+   and: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+
+@media only screen and (min-width: 466px) {  /*  434px figure + 2 x 16px margins */
+  
+  main.thumbs figure {
+    
+}
+
+h1 {
+  
+}
+}
+
+
+
+@media only screen and (min-width: 576px) {
+
+}
+
+
+
+/* MEDIUM DEVICES (TABLETS, 768PX AND UP) */
+@media only screen and (min-width: 768px) {
+}
+
+
+@media only screen and (min-width: 918px) {  /* 2 x 466px + 16px gap + 2 x 16px outer margins */
+  main.thumbs {
+    
+  }
+}
+
+
+/* LAPTOPS AND DESKTOPS CAN BE REGULAR OR RETINA DISPLAY  */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  figure {
+   
+  }
+}
+
+@media only screen and (min-width: 1368px) { /* 1336px + 2 x 16px margin = 1368 */ 
+  main.thumbs {
+   
+  }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
